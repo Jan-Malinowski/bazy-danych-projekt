@@ -1,0 +1,42 @@
+Raport 1:
+Skład zespołu: Jan Malinowski, Antoni Łukasiewicz, Wiktor Leszczyński
+
+Pomysł - Baza danych domu maklerskiego zawierająca informacje o pracownikach, klientach, spółkach oraz o zakupach i sprzedażach akcji tych spółek. 
+
+
+Tabele w bazie danych:
+
+Employees:
+	-id_emp: int - id pracownika (PRIMARY KEY)
+	-name: varchar - imie
+	-surname: varchar - nazwisko
+	-date_of_birth: date - data urodzenia pracownika
+	-account: varchar - numer konta bankowego klienta (28 SIGNS)
+	-base_salary: int - podstawowa stawka pracownika (>0)
+	-prov: int - zarobione pieniądze przez pracownika podczas roku (>=0)
+Sales:
+	-id_sale: int - id sprzedarzy (PRIMARY KEY)
+	-id_emp: int - id pracownika
+	-id_clt: int - id klienta
+	-stock_name: varchar - nazwa sprzedanych/kupionych akcji
+	-stock_amm: int - ilość kupowanych/sprzedawanych akcji (>0)
+	-sale: bool - 0 jeżeli zakup akcji, 1 jeżeli sprzedaż
+	-cost: int - cena całej transakcji
+	-date: date - data transakcji
+Stocks:
+	-stock_name: varchar - nazwa akcji (CAPITAL LETTERS) (PRIMARY KEY)
+	-comp: varchar - nazwa firmy danej akcji
+	-curr_price: int - aktualna cena akcji
+	-amm: int - ilość akcji dostępnych do zakupu (>0)
+Clients:
+	-id_clt: int - id klienta (PRIMARY KEY)
+	-name:  varchar - imie klienta
+	-surname: varchar - nazwisko klienta
+	-pesel: varchar - pesel klienta
+	-tel: varchar - numer telefonu klienta
+	-country: varchar - kraj pochodzenia klienta
+	-account: varchar - numer konta bankowego klienta (28 SIGNS)
+History:
+	-stock_name: varchar - nazwa akcji (CAPITAL LETTERS)
+	-date: date - data
+	-price: int - cena akcji podczas konkretnego dnia (>0)
