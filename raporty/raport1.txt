@@ -12,7 +12,7 @@ Employees:
 	-surname: VARCHAR - nazwisko
 	-date_of_birth: DATE - data urodzenia pracownika
 	-account: VARCHAR - numer konta bankowego pracownika (28 SIGNS)
-	-base_salary: DECIMAL(12, 2) - podstawowa stawka pracownika (>0)
+	-base_salary: DECIMAL(10, 2) - podstawowa stawka pracownika (>0)
 	-prov: DECIMAL(12, 2) - zarobione pieniądze przez pracownika podczas roku (>=0)
 Transactions:
 	-id_trans: INT - id sprzedarzy (PRIMARY KEY)
@@ -39,5 +39,5 @@ Clients:
 History:
 	-ticker_id: VARCHAR - (PRIMARY KEY)
 	-ticker: VARCHAR - nazwa akcji (CAPITAL LETTERS)
-	-price_date: TIMESTAMP - data
+	-price_date: DATE - data
 	-price: DECIMAL(12, 2) - cena akcji podczas konkretnego dnia (>0)
