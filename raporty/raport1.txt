@@ -14,18 +14,18 @@ Employees:
 	-account: VARCHAR - numer konta bankowego pracownika (28 SIGNS)
 	-base_salary: DECIMAL(12, 2) - podstawowa stawka pracownika (>0)
 	-prov: DECIMAL(12, 2) - zarobione pieniądze przez pracownika podczas roku (>=0)
-Sales:
-	-id_sale: INT - id sprzedarzy (PRIMARY KEY)
+Transactions:
+	-id_trans: INT - id sprzedarzy (PRIMARY KEY)
 	-id_emp: INT - id pracownika (FOREIGN KEY)
 	-id_clt: INT - id klienta (FOREIGN KEY)
 	-ticker: VARCHAR - nazwa sprzedanych/kupionych akcji
 	-stock_amm: INT - ilość kupowanych/sprzedawanych akcji (>0)
-	-sale: BOOL - 0 jeżeli zakup akcji, 1 jeżeli sprzedaż
+	-trans_type: BOOL - 0 jeżeli zakup akcji, 1 jeżeli sprzedaż
 	-cost: DECIMAL(10, 2) - cena całej transakcji
-	-date: TIMESTAMP - data transakcji
+	-trans_time: TIMESTAMP - data transakcji
 Stocks:
 	-ticker: VARCHAR - nazwa akcji (CAPITAL LETTERS) (PRIMARY KEY)
-	-comp: VARCHAR - nazwa firmy danej akcji
+	-comp_name: VARCHAR - nazwa firmy danej akcji
 	-curr_price: DECIMAL(12, 2) - aktualna cena akcji
 	-amm: INT - ilość akcji dostępnych do zakupu (>=0)
 Clients:
@@ -37,7 +37,7 @@ Clients:
 	-country: VARCHAR - kraj pochodzenia klienta
 	-account: VARCHAR - numer konta bankowego klienta (28 SIGNS)
 History:
-	-ticker+timestamp: VARCHAR - (PRIMARY KEY)
+	-ticker_id: VARCHAR - (PRIMARY KEY)
 	-ticker: VARCHAR - nazwa akcji (CAPITAL LETTERS)
-	-date: TIMESTAMP - data
+	-price_date: TIMESTAMP - data
 	-price: DECIMAL(12, 2) - cena akcji podczas konkretnego dnia (>0)
