@@ -1,0 +1,12 @@
+Raport ze spotkania 2:
+
+W tej części projektu generujemy dane do wcześniej ustalonym tabel. Do tego celu
+używamy biblioteki faker w pythonie. Dane zapisujemy do plików csv, aby było je później
+łatwo wczytać do bazy dancyh.
+
+Dane wygenerowane do konkretnych tabel:
+- 50 rekordów do tabeli Employees, zawierających pracowników domu maklerskiego
+- 100 rekordów do tabeli Clients, zawierających klientów
+- 150 rekordówdo tabeli History, zawierających historię zmian cen akcji
+- 200 rekordów do tablei Transactions, zawierających historię transakcji
+- 50 rekordów do tabeli Stocks, zawierająch spis dostępnych akcji
