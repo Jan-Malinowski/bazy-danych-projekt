@@ -1,0 +1,51 @@
+ticker,comp_name,curr_price,amm
+NVDA,NVIDIA Corporation,145.77,268
+ANT,"Anthropic, PBC",86.89,482
+SPCX,Space Exploration Technologies Corp. (SpaceX),216.51,781
+INTC,Intel Corporation,25.07,788
+SNDK,Sandisk Corporation,55.84,181
+PLUG,Plug Power Inc.,2.33,627
+GRAB,Grab Holdings Limited,4.90,356
+RIG,Transocean Ltd.,4.08,393
+IREN,IREN Limited,11.63,495
+CRWV,"CoreWeave, Inc.",63.85,355
+INSM,Insmed Incorporated,70.91,250
+NOK,Nokia Oyj,4.87,995
+VALE,Vale S.A.,10.11,390
+AAL,American Airlines Group Inc.,14.15,197
+STLA,Stellantis N.V.,13.72,971
+AMZN,"Amazon.com, Inc.",209.64,658
+WULF,TeraWulf Inc.,6.93,309
+AAPL,Apple Inc.,238.96,207
+MU,"Micron Technology, Inc.",105.02,529
+BMNR,Bitmine Immersion Technologies,3.36,141
+F,Ford Motor Company,10.94,762
+AMD,"Advanced Micro Devices, Inc.",147.70,362
+HL,Hecla Mining Company,6.03,287
+GOOGL,Alphabet Inc. (Klasa A),182.40,24
+NBIS,Nebius Group N.V.,28.55,764
+ORCL,Oracle Corporation,185.76,672
+TSLA,"Tesla, Inc.",337.85,504
+AVGO,Broadcom Inc.,170.32,579
+MRVL,"Marvell Technology, Inc.",92.80,592
+MSFT,Microsoft Corporation,430.96,932
+DELL,Dell Technologies Inc.,135.71,604
+WMT,Walmart Inc.,90.77,848
+XOM,ExxonMobil Corporation,117.08,651
+LRCX,Lam Research Corporation,75.01,756
+PLTR,Palantir Technologies Inc.,65.58,842
+META,"Meta Platforms, Inc.",575.24,125
+NFLX,"Netflix, Inc.",853.19,656
+AMAT,"Applied Materials, Inc.",177.98,575
+MSTR,Strategy (MicroStrategy),397.75,616
+KO,The Coca-Cola Company,63.93,829
+ADI,"Analog Devices, Inc.",223.46,466
+PYPL,"PayPal Holdings, Inc.",83.62,889
+PFE,Pfizer Inc.,26.07,150
+NIO,NIO Inc.,4.71,103
+BABA,Alibaba Group Holding,88.99,38
+O,Realty Income Corporation,57.54,186
+DIS,The Walt Disney Company,118.16,482
+GEV,GE Vernova Inc.,325.00,71
+V,Visa Inc.,304.09,170
+LLY,Eli Lilly and Company,755.47,863
